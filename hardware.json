@@ -1,0 +1,23 @@
+{
+  "version": "1.0.5",
+  "devices": [
+    {
+      "model_id": "google_pixelbook",
+      "name": "Google Pixelbook (Eve)",
+      "chipset": "Kaby Lake",
+      "drivers": ["kb_backlight", "touchpad_elan", "audio_avs"]
+    },
+    {
+      "model_id": "asus_c302",
+      "name": "ASUS Chromebook Flip C302",
+      "chipset": "Skylake",
+      "drivers": ["touchscreen_atmel", "wifi_intel_7265"]
+    },
+    {
+      "model_id": "acer_c720",
+      "name": "Acer C720 (Peppy)",
+      "chipset": "Haswell",
+      "drivers": ["trackpad_cyapa", "gpu_i915"]
+    }
+  ]
+}
